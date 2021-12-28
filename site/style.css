@@ -29,3 +29,7 @@ section div:nth-child(4):hover {
     background-color: green;
     cursor: pointer;
 }
+
+body {
+    font-family: sans-serif, arial, times;
+}
