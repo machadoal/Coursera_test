@@ -15,27 +15,19 @@ article {
     background-color: #00FFFF;
 }
 p {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+    width: 50%;
     float: left;
+    /*border: 1px solid black;*/
+    padding: 10px; 
+   
 }
 
-#p1 {
-    background-color: #A52A2A;
-    
-}
-#p2 {
-    background-color: #DEB887;
+
+
+#pl1 {
 
 }
-#p3{
-    background-color: #5F9EA0;
-}
-#p4 {
-    background-color: #FF7F50;
-}
 
-section {
-    clear: left;
+#pl2 {
+
 }
