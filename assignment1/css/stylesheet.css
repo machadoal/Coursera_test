@@ -26,13 +26,15 @@ p {
     background-color: #443B33;
     color:white;
     width: 90%;
-    height: 65px;
+    height: 75px;
+    clear: right;
+    text-align: center;
 }
 .row {
     width: 100%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
    .col-lg-4 {
         float: left;
     }
@@ -57,4 +59,16 @@ p {
 
 @media (max-width: 767px) {
     .col-sm-12
+}
+
+
+.title {
+    border: 1px solid black;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    background-color: #5e2323;
+    padding-left: 3px;
+    padding-right: 3px;
 }
